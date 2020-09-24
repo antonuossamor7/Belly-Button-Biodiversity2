@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        
+        <h1>Belly Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Data Info </h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-2">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots.js"></script>
+  <script src="bonus.js"></script>
+  <script src="app.js"></script>
+</body>
+  <main id="main" class="clearfix ">
+    <div class="fusion-row" style ="">
+<section id="content" style="width: 1000%;">
+      <div id="post-66" class="post-66 page type-page status-publish hentry">
+  <span class="entry-title rich-snippet-hidden">Belly Button Biodiversity</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="http://robdunnlab.com/author/nlmccoy/" title="Posts by nlmccoy" rel="author">nlmccoy</a></span></span><span class="updated rich-snippet-hidden">2016-11-28T15:56:01-05:00</span>
+  
+  <div class="post-content">
+    <p><img src="http://robdunnlab.com/wp-content/uploads/microbes-sem.jpg" alt="microbes-sem" width="1000" height="500" class="alignnone size-m wp-image-3258" srcset="http://robdunnlab.com/wp-content/uploads/microbes-sem-200x110.jpg 200w, http://robdunnlab.com/wp-content/uploads/microbes-sem-300x165.jpg 300w, http://robdunnlab.com/wp-content/uploads/microbes-sem-400x220.jpg 400w, http://robdunnlab.com/wp-content/uploads/microbes-sem-600x330.jpg 600w, http://robdunnlab.com/wp-content/uploads/microbes-sem-768x422.jpg 768w, http://robdunnlab.com/wp-content/uploads/microbes-sem-800x440.jpg 800w, http://robdunnlab.com/wp-content/uploads/microbes-sem.jpg 1000w" 
+      sizes="(max-width: 1000px) 100vw, 1000px"></p><div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-bottom: 5px;margin-top: 5px;"><div
+       class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1 fusion-builder-column-0 fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"
+       style="margin-top:0px;margin-bottom:0px;"><div class="fusion-column-wrapper" style="background-position: landscape top; background-repeat: no-repeat; background-size: cover; height: auto;" data-bg-url="">
+<h1 data-fontsize="40" data-lineheight="53.2px" class="fusion-responsive-typography-calculated" style="--fontSize:40; line-height: 1.33;">Belly Button Biodiversity</h1>
+<div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-bottom: 25px;margin-top: 5px;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1 fusion-builder-column-1 fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;"><div class="fusion-column-wrapper" 
+  style="background-position: left top; background-repeat: no-repeat; background-size: cover; height: auto;" data-bg-url="">
+<strong>Public Science | <a href="http://robdunnlab.com/projects/your-wild-life/" title="Your Wild Life">Your Wild Life Projects</a></strong><p></p>
+<h3 data-fontsize="35" data-lineheight="36px" class="fusion-responsive-typography-calculated" style="--fontSize:35; line-height: 1.2;">
+     The coolest study of biodiversity on the human body on the planet!</h3>
+
+<ul>
+<li><a href="http://robdunnlab.com/projects/belly-button-biodiversity/project-history/">Project history</a></li>
+<li><a href="http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/">Results and data</a></li>
+<li><a href="http://robdunnlab.com/yourbacteria/" target="_blank">Microbial Diversity in the Belly Button</a></li>
+<li><a href="http://robdunnlab.com/projects/belly-button-biodiversity/most-common/">Common Belly Button Bacteria</a></li>
+<li><a href="https://youtu.be/YLSOuW6s1LY" target="_blank"><em>Life on Us</em> Documentary</a> (features the belly Button Biodiversity study!)</li>
+<li><strong>Your Wild Life blog posts:</strong> <a href="http://www.yourwildlife.org/category/belly-button-biodiversity/" target="_blank">Belly Button Biodiversity</a></li>
+</ul>
+<div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-bottom: 5px;margin-top: 15px;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1 fusion-builder-column-2 fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;"><div class="fusion-column-wrapper" style="background-position: left top; background-repeat: no-repeat; background-size: cover; height: auto;" data-bg-url=""><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-dotted sep-single thickbar" style="border-color:#bad4f1;border-top-width:1px;margin-left: auto;margin-right: auto;margin-top:;"></div>
+<h3 data-fontsize="30" data-lineheight="36px" class="fusion-responsive-typography-calculated" style="--fontSize:30; line-height: 1.2;">Belly Button Biodiversity Showcase</h3>
+<p>Explore the amazing diversity of cultured bacteria from some of our participants’ belly buttons!
+<style type="text/css">
+  gallery-1 {
+    margin: auto;
+  }
+  gallery-1 .gallery-item {
+    float: centre;
+    margin-top: 10px;
+    text-align: center;
+    width: 20%;
+  }
+  gallery-1 img {
+    border: 2px solid #cfcfcf;
+  }
+  gallery-1 .gallery-caption {
+    margin-right: 0;
+  }
+</body>
+</html>
